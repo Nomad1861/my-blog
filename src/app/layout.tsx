@@ -11,17 +11,7 @@ import Portfolio from "../../componets/portfolio/Portfolio";
 import Contact from "../../componets/contact/Contact";
 import Footer from "../../componets/footer/Footer";
 
-// import { color } from "framer-motion";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "My Blog",
