@@ -46,7 +46,7 @@ const ContactForm = () => {
 
 
         formRef.current.reset();
-        setAcceptWithRules(false)
+        setAcceptWithRules(false);
     };
 
     return (
@@ -78,7 +78,7 @@ const ContactForm = () => {
             />
             <button
                 className={styles.contact_form_btn}
-                disabled={acceptWithRules}
+                disabled={!acceptWithRules}
             >
                 {spinner ? <PropagateLoader color="#fff" /> : 'Отправить заявку'}
 
