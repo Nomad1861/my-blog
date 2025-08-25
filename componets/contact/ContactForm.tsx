@@ -87,7 +87,7 @@ const ContactForm = () => {
                 <input
                     className={styles.contact_checkbox_input}
                     type="checkbox"
-                    onChange={!toggleAcceptWithRules}
+                    onChange={toggleAcceptWithRules}
                 />
                 <span className={styles.contact_checkbox_span} />
                 <span className={styles.contact_checkbox_text}>Нажимая на кнопку «Отправить заявку», я соглашаюсь с <Link href='/privacy-policy' className={styles.contact_checkbox_link} >Политикой конфиденциальности</Link> и даю <Link href='/personal-data-of-clients' className={styles.contact_checkbox_link}> Согласие на обработку персональных данных.</Link></span>
