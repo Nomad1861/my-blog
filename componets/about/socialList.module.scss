@@ -1,0 +1,154 @@
+.social_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+
+
+    @media all and (max-width: 1080px) {
+        display: flex;
+        align-items: center;
+
+    }
+
+    @media all and (max-width: 630px) {
+        display: block;
+    }
+
+    &_item {
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 25px;
+
+            @media all and (max-width: 1080px) {
+                margin-bottom: 0;
+
+                &:not(:last-child) {
+                    margin-right: 28px;
+
+                    @media all and (max-width: 485px) {
+                        margin-right: 0;
+
+                        &:not(:last-child) {
+                            margin-bottom: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &_link {
+            display: flex;
+            align-items: center;
+            font-family: 'Lato';
+            font-weight: 600;
+            font-size: 20px;
+            text-decoration-line: underline;
+            color: #0CAED5;
+
+            @media all and (max-width: 800px) {
+                font-size: 18px;
+
+
+            }
+
+            &:hover &_icon_tg {
+                transform: rotate(360deg);
+                transition: transform 1s ease;
+
+            }
+
+            &:hover &_icon_vk {
+                transform: rotate(360deg);
+                transition: transform 1s ease;
+            }
+
+            &:hover &_icon_gh {
+                transform: rotate(360deg);
+                transition: transform 1s ease;
+
+
+
+
+            }
+
+            &:hover {
+                background: radial-gradient(142.65% 2282.99% at 100% -31.65%, #08A6CE 0%, #6352B1 43.75%, #8B0EB7 68.75%)
+                    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+                ;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            &_icon {
+                position: relative;
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+
+
+                & img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+
+            &_icon_tg img {
+                top: 3px;
+                left: 3px;
+                margin-left: 10px;
+
+                @media all and (max-width: 1080px) {
+                    margin-left: 10px;
+                }
+
+                @media all and (max-width:630px) {
+                    margin-left: 23px;
+                }
+
+            }
+
+            &_icon_vk img {
+                top: 4px;
+                left: 3px;
+                margin-left: 15px;
+
+                @media all and (max-width:630px) {
+                    margin-left: 15px;
+                }
+
+            }
+
+            &_icon_gh img {
+                top: 2.3px;
+                left: 3px;
+                margin-left: 49px;
+
+                @media all and (max-width: 1080px) {
+                    margin-left: 16px;
+                }
+
+
+                @media all and (max-width:630px) {
+                    margin-left: 46px;
+                }
+            }
+
+            &_text {
+                margin-right: 25px;
+
+
+                @media all and (max-width: 1080px) {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
