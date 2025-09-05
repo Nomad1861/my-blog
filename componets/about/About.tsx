@@ -15,7 +15,7 @@ const About = () => {
     return (
         <section className={styles.about} id='about'>
             <div className='container'>
-                <MainTitle text="Обо мне" />
+                <MainTitle text="About me" />
             </div>
             <div className={`subcontainer ${styles.about_sub_container}`}>
                 <img className={styles.about_img} style={{ width: "480px", height: "600px" }} src="/img/photo3.png"
