@@ -35,7 +35,6 @@ const About = () => {
                     <div className={styles.about_text}>
                         <p >
                             Привет! Меня зовут Сергей. Я Frontend developer( с уклоном в Fullstack(Python,Django) ), мой основной стек: HTML, CSS, JavaScript(TypeScript), React(Next.js), Node.js.
-                            В своем блоге пишу о опыте полученным в процессе обучения!
                         </p>
                     </div>
                     {!isMobile1080 && <SocialList />}
