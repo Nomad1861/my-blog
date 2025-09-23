@@ -18,7 +18,7 @@ const About = () => {
                 <MainTitle text="About me" />
             </div>
             <div className={`subcontainer ${styles.about_sub_container}`}>
-                <img className={styles.about_img} style={{ width: "480px", height: "600px" }} src="/img/photo3.png"
+                <img className={styles.about_img} style={{ width: "480px", height: "550px" }} src="/img/photo3.png"
                     alt="avatar"
                 />
                 <div className={styles.about_inner}>
