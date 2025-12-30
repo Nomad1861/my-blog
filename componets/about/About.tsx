@@ -34,7 +34,7 @@ const About = () => {
                     </h3>
                     <div className={styles.about_text}>
                         <p >
-                            Привет! Меня зовут Сергей. Я Frontend developer, мой основной стек: HTML, CSS, JavaScript(TypeScript), React(Next.js), Node.js.(Linux(Ubuntu))
+                            Привет! Меня зовут Сергей. Я Frontend developer, мой основной стек: HTML, CSS, JavaScript(TypeScript), React(Next.js),(Linux(Ubuntu))
                         </p>
                     </div>
                     {!isMobile1080 && <SocialList />}
